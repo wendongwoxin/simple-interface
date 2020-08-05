@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var mysql = require('mysql');
-var url = require('url');
 var bodyParser = require('body-parser');
 var interface = require('./interface')
 app.all('*',function(req,res,next){
