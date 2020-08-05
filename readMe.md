@@ -1,3 +1,3 @@
 # how to use it
-npm install
+npm install --save express mysql
 node service.js
